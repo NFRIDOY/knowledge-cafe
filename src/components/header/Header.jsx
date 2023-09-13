@@ -7,8 +7,10 @@ export default function Header(props) {
     const {title} = props;
     return (
         <>
+            <div className='flex flex-row justify-between mx-28'>
             <h1 className=' text-6xl'>{title}</h1>
-            <img src={profile} alt="" />
+            <img src={profile} alt="profile" />
+            </div>
         </>
     )
 }
