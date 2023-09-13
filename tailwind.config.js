@@ -11,12 +11,23 @@ export default {
   daisyui: {
     themes: ["light", "dark", "cupcake",],
   },
+  // Custom theme
+  // daisyui: {
+  //   themes: [ 
+  //     {
+  //       mytheme: {
+  //         "secondary": "#f3fca1",
+  //       },
+  //     },
+  //     "light",
+  //   ],
+  // },
   daisyui: {
     themes: [
       {
         mytheme: {
 
-          "primary": "#e54e76",
+          "primary": "#a991f7",
 
           "secondary": "#f3fca1",
 
@@ -37,5 +48,6 @@ export default {
       },
     ],
   },
+  // // Custom theme
 }
 
