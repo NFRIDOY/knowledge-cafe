@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Header title={"Knowledge Cafe"}></Header>
-      <button className='btn btn-primary'>HI</button>
-      <button className='btn btn-secondary'>HI</button>
+      
+      
     </>
   )
 }
