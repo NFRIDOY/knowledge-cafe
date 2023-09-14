@@ -10,7 +10,7 @@ export default function Blog(props) {
                 <h1>id: {id}</h1>
                 <h1>Title: {title}</h1>
                 {/* <h1>Title: {}</h1> */}
-                <button onClick={handleBlogClick}>Click</button>
+                <button onClick={handleBlogClick} className="btn btn-primary">Click</button>
 
             </div>
         </>
