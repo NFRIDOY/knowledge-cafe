@@ -4,6 +4,7 @@
 import './App.css'
 import Header from './components/header/Header'
 import Blogs from './components/blogs/Blogs'
+import Bookmarks from './components/bookmarks/Bookmarks'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,8 +12,12 @@ function App() {
   return (
     <>
       <Header title={"Knowledge Cafe"}></Header>
-      <Blogs></Blogs>
-      
+      <div className='flex justify-between mx-28 py-8'>
+        <Blogs></Blogs>
+        <Bookmarks></Bookmarks>
+
+      </div>
+
     </>
   )
 }
